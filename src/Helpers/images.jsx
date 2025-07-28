@@ -217,6 +217,42 @@ export const newProduct =[
     },
 ]
 // New Product Json End //
+//clearencce Counter Start //
+export const shape = "./src/assets/images/bg-shape.png";
+
+//clearencce Counter End //
+// popular items Start //
+export const popularProduct = [
+    {
+        image:product13,
+        tag:'New',
+        name:'Orange Luxurious Bag',
+        rate:'$21.00',
+        desRate:'$16.00'
+    },
+    {
+        image:product14,
+        tag:'',
+        name:'Smart Watch',
+        rate:'$21.00',
+        desRate:'$16.00'
+    },
+    {
+        image:product15,
+        tag:'',
+        name:'White Sandals',
+        rate:'$21.00',
+        desRate:'$16.00'
+    },
+    {
+        image:product16,
+        tag:'',
+        name:'Ladies Skirt',
+        rate:'$21.00',
+        desRate:'$16.00'
+    },
+]
+// popular items End //
 
 // Footer Start //
 import { FiShoppingCart, FiDribbble, FiLinkedin, FiFacebook, FiInstagram, FiTwitter, FiMail, FiGithub, FiYoutube, FiGitlab } from "react-icons/fi";
